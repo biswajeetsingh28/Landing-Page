@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47,24,147);
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px    ;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 155px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+.Startup{
+    margin-right: 480px;
+}
+.overview{
+    opacity: 0.5;
+}
+.content {
+    display: flex;
+    padding: 5px;
+}
+.signup{
+    color: #fff;
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+}
+.Purchase{
+    background-color: rgb(225, 77, 124);
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+    height: 20px;
+
+}
+.content h1 {
+    font-size: 36px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+}
+.signup-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin: 10px 0;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color:rgb(72,43,231);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+} 
+ 
+.login-via-twitter button{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(29,161,242);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.login-link {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #333;
+}
+
+.Line{
+    position: relative;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .Line:before{
+    content:" ";
+    height: 2px;
+    width: 185px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .Line:after{
+    content:" ";
+    height: 2px;
+    width: 185px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  
